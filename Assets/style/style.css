@@ -1,3 +1,52 @@
 *{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 253, 253);
+  }
+  svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .container {
+    border: 1px solid red;
+    max-height: 100px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  nav,section{
+    background-color:#FFC244; ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     
-}
+  }
+  nav{
+    height: 30vh;
+  }
+  .naviButton{
+    background-color: #00A082;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: auto;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+  }
+  nav >section> .Glovo{
+    background-color: transparent;
+    color:#00A082;
+    font-size: xx-large;
+    font-weight: 700;
+  }
+  
